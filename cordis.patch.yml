@@ -1,0 +1,13 @@
+# 二创工坊（dsh-fanwork）bundle patch
+#
+# 安装本插件时，loader 会应用这份 patch，把下面这一行插进插件树。
+# 行 id 固定为 `fanwork`：在 profile 的 cordis.patch.yml 里用同一个 id
+# 覆写 config 即可，不会重复注册。
+- insert:
+    - id: fanwork
+      name: dsh-fanwork
+      config:
+        candidates: 3
+        concurrency: 4
+        reasoningEffort: low
+        callTimeoutMs: 600000

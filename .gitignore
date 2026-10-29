@@ -1,0 +1,8 @@
+node_modules/
+*.tgz
+.DS_Store
+.t.log
+.t.err
+.fanwork-check
+settings.json
+*.local.json

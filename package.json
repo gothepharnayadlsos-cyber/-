@@ -1,0 +1,35 @@
+{
+  "name": "dsh-fanwork",
+  "version": "0.1.0",
+  "description": "二创工坊：原文逻辑体检 + 可控二创生成的 DeepSeek Harness 插件。Bring-your-own-key fan-fiction workbench for DSH.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "icon.svg",
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "assets",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "fanwork",
+    "fan-fiction",
+    "story",
+    "consistency",
+    "writing",
+    "llm"
+  ],
+  "license": "MIT"
+}
